@@ -8,13 +8,17 @@ It includes runnable code examples, lightweight tests, and UML class diagrams (P
 ## 🚀 Quick Setup
 
 1. Install **VS Code** and **Python 3.12.2**.  
-2. Open a **Bash terminal** in VS Code.  
-3. Clone the repo:  
+2. Open a **Bash terminal** in VS Code.
+3. Fork the repo:
    ```bash
-   git clone https://github.com/lavendermistyco/oop-foundations-python.git
+      https://github.com/lavendermistyco/oop-foundations-python.git
+   ```
+5. Clone your forked repo:  
+   ```bash
+   git clone https://github.com/{YOUR_USERNAME}/oop-foundations-python.git
    cd oop-foundations-python/oop-foundations-student
    ```
-4. Create and activate a virtual environment:  
+6. Create and activate a virtual environment:  
    ```bash
    # On Windows
    py -m venv venv
@@ -25,7 +29,7 @@ It includes runnable code examples, lightweight tests, and UML class diagrams (P
    python3 -m venv venv
    source venv/bin/activate
    ```
-5. Install packages:  
+7. Install packages:  
    ```bash
    pip install pytest
    ```
