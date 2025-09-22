@@ -1,20 +1,14 @@
 @startuml
 class Author {
-  - name: str
+  
 }
 
 class Book {
-  - title: str
-  - author: Author
-  - isbn: str
+
 }
 
 class Member {
-  - name: str
-  - _checked_out: List<Book>
-  + checkout(book: Book): void
-  + return_book(isbn: str): bool
-  + list_checked_out(): List<Book>
+ 
 }
 
 Author <.. Book

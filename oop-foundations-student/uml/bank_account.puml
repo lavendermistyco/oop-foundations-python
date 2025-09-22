@@ -1,10 +1,5 @@
 @startuml
 class BankAccount {
-  - account_number: str
-  - owner_name: str
-  - balance: float
-  + deposit(amount: float): void
-  + withdraw(amount: float): void
-  + get_balance(): float
+  
 }
 @enduml

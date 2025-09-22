@@ -4,13 +4,13 @@ class Car:
         self.model = model
         self._running = False  # underscore to hint at 'internal' use
 
-    def drive(self) -> None:
+    def drive(self):
         if not self._running:
             print("Starting engine...")
             self._running = True
         print(f"{self.make} {self.model} goes: Vroom!")
 
-    def stop(self) -> None:
+    def stop(self):
         if self._running:
             print("Engine off.")
             self._running = False

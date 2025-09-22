@@ -1,23 +1,14 @@
 class BankAccount:
-    def __init__(self, account_number: str, owner_name: str, starting_balance: float = 0.0):
-        self.account_number = account_number
-        self.owner_name = owner_name
-        self.balance = float(starting_balance)
+    def __init__(self):
+        # TODO: Initialize account_number, owner_name, and balance
 
-    def deposit(self, amount: float) -> None:
-        if amount <= 0:
-            raise ValueError("Deposit amount must be positive")
-        self.balance += amount
+    def deposit(self, amount: float):
+        # TODO: Add amount to balance, with input validation
 
-    def withdraw(self, amount: float) -> None:
-        if amount <= 0:
-            raise ValueError("Withdraw amount must be positive")
-        if amount > self.balance:
-            raise ValueError("Insufficient funds")
-        self.balance -= amount
-
-    def get_balance(self) -> float:
-        return self.balance
+    def withdraw(self, amount: float):
+        # TODO: Subtract amount from balance, with input validation
+    def get_balance(self):
+        # TODO: Return the current balance
 
 
 if __name__ == '__main__':

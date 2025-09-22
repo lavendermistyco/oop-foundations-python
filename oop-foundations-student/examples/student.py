@@ -4,13 +4,13 @@ class Student:
         self.major = major
         self.gpa = gpa
 
-    def introduce(self) -> str:
+    def introduce(self):
         return f"Hi, I'm {self.name}, a {self.major} major with GPA {self.gpa:.2f}."
 
-    def update_major(self, new_major: str) -> None:
+    def update_major(self, new_major: str):
         self.major = new_major
 
-    def add_grade(self, points_earned: float, points_possible: float) -> None:
+    def add_grade(self, points_earned: float, points_possible: float):
         if points_possible <= 0:
             raise ValueError("points_possible must be > 0")
         # naive running GPA; for teaching only

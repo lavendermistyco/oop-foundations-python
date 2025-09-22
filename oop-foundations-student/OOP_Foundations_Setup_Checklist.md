@@ -11,7 +11,7 @@ Please complete these steps **before class** so we can dive right into coding.
 
 ---
 
-## ✅ 2. Install Python 3.12.2
+## ✅ 2. Install Python 3.12.2 at least
 - Download from [python.org/downloads](https://www.python.org/downloads/release/python-3122/).  
 - During installation:  
   - **Check the box** that says *“Add Python to PATH”*.  
@@ -40,6 +40,7 @@ Now that Git Bash is available, download the starter code from GitHub:
 ```bash
 git clone https://github.com/lavendermistyco/oop-foundations-python.git
 cd oop-foundations-python
+cd oop-foundations-student
 ```
 
 ---
