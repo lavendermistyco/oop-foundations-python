@@ -34,11 +34,11 @@ Please complete these steps **before class** so we can dive right into coding.
 
 ---
 
-## ✅ 4. Clone the Repository
+## ✅ 4. Clone the Forked Repository
 Now that Git Bash is available, download the starter code from GitHub:  
 
 ```bash
-git clone https://github.com/lavendermistyco/oop-foundations-python.git
+git clone https://github.com/{YOUR_USERNAME}/oop-foundations-python.git
 cd oop-foundations-python
 cd oop-foundations-student
 ```
