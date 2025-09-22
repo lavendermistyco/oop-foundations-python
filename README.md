@@ -30,7 +30,7 @@ It includes runnable code examples, lightweight tests, and UML class diagrams (P
    pip install pytest
    ```
 
-> 👉 Full step-by-step instructions are in [OOP_Foundations_Setup_Checklist.md](oop-foundations-student\OOP_Foundations_Setup_Checklist.md).
+> 👉 Full step-by-step instructions are in [OOP_Foundations_Setup_Checklist.md](oop-foundations-student/OOP_Foundations_Setup_Checklist.md).
 
 ---
 
